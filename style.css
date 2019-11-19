@@ -1,3 +1,51 @@
-.menu{
-	
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  align-items: center;
+  text-shadow: 25px;
+  box-shadow: 0px 2px 10px grey;
+
+}
+
+.logo {
+  text-decoration: none;
+}
+
+.logo > img {
+  height: 70px;
+  width: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+ .img-carrousel {
+  height:70vh;
+  object-fit: cover;
+}
+
+.link {
+  text-decoration: none;
+  margin: 20px;
+  padding: 15px;
+  background: pink;
+  color: white;
+  font-size: 14px;
+  font-family: Arial;
+  border-radius: 4px;
+}
+
+.link: hover {
+  background-color: blue;
+}
+.img-height {
+	height: 30vh;
+}
+
+.img-fit {
+	object-fit: cover;
+}
+
+.card-text {
+	text-align: center;
 }
