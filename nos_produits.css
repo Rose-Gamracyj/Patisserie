@@ -1,0 +1,11 @@
+.img-height {
+	height: 30vh;
+}
+
+.img-fit {
+	object-fit: cover;
+}
+
+.card-text {
+	text-align: center;
+}

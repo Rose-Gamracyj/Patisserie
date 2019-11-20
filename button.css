@@ -1,0 +1,33 @@
+.menu{
+width: 120px;
+background-size: 20px;
+background-color: pink;
+padding: 20px;
+margin-right: 10px;
+text-decoration-style: none;
+text-shadow: 25px;
+}
+​
+.link: hover {
+  background-color: green;
+}
+​
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background: #84c7ff;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li {
+  background: #555;
+  display: block;
+}
+ul li ul li a {display:block !important;}
+ul li ul li:hover {background: #666;}
