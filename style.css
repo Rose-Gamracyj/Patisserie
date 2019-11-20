@@ -1,3 +1,115 @@
-.menu{
-	
+.titre{
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-decoration: none;
+text-shadow: 20px;
+color: Grey;
+font-size: 48px;
+box-shadow: 10px;
+text-decoration: none;
+height: 80px;
+}
+
+.h1 {
+text-shadow: 20px;
+font-family: "Lobster", cursive;
+color: Grey;
+font-size: 48px;
+box-shadow: 10px;
+text-decoration: none;
+}
+
+.logo {
+  text-decoration: none;
+}
+.logo > img{
+  height: 70px;
+  width: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.devanture{
+ height: calc(100vh - 80px);
+ width: calc(100% - 200px);
+ border-radius: 15px;
+ background-image: url("Images/Devanture.jpeg");
+ object-fit: cover;
+}
+
+.barre-menu{
+height: 70px;
+width: 70px;
+object-fit: cover;
+border-radius: 50%
+}
+
+.vertical-menu {
+  width: 200px; /* Set a width if you like */
+  height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.vertical-menu a {
+margin-right: : 30px;
+ background-color: pink; /* Grey background color */
+ color: black; /* Black text color */
+ display: block; /* Make the links appear below each other */
+ padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu : hover {
+  background-color: pink; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu .active {
+  background-color: pink; /* Add a green color to the "active/current" link */
+ color: black;
+}
+
+.container{
+	display: flex;
+	}
+
+ .img-carrousel {
+  height:70vh;
+  object-fit: cover;
+}
+
+.link {
+  text-decoration: none;
+  margin: 20px;
+  padding: 15px;
+  background: pink;
+  color: white;
+  font-size: 14px;
+  font-family: Arial;
+  border-radius: 4px;
+}
+
+.link: hover {
+  background-color: blue;
+}
+.img-height {
+	height: 30vh;
+}
+
+.img-fit {
+	object-fit: cover;
+}
+
+.card-text {
+	text-align: center;
+}
+.type-form-widget{
+	margin-top: 15px;
+	justify-content: center;
+	margin-right: 25px;
+	margin-left: 25px;
+	height:30vh;
+	width: 70px;
 }
