@@ -1,0 +1,13 @@
+.equipier {
+	font-family: 'Alata', sans-serif;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.container {
+	text-align: center;
+}
+.text-justify {
+	text-align: justify;
+}
